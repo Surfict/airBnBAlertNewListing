@@ -10,8 +10,8 @@ import json
 
 def sendmail(message):
 
-    server = smtplib.SMTP_SSL()
-    server.connect(mailSMTP, '587')
+    server = smtplib.SMTP_SSL(mailSMTP)
+    server.connect(mailSMTP)
     server.ehlo()
     server.login(mailSender, PasswordSender)
     sender = mailSender
