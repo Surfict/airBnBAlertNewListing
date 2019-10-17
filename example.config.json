@@ -1,0 +1,9 @@
+{
+  "airBnbUrl": "",
+  "action": 60,
+  "mail": "example@gmail.com",
+  "mailSender": "example@gmail.com",
+  "PasswordSender": "secret",
+  "mailSMTP": "smtp.gmail.com"
+}
+
